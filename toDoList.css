@@ -57,6 +57,16 @@ html {
   background-color: #00af00;
   border: none;
 }
+@media (max-width: 767px) {
+  #form #input {
+    flex: 3;
+    font-size: 14px;
+    height: 32px;
+  }
+  #form #submit {
+    font-size: 16px;
+  }
+}
 #tasksContainer {
   margin-top: 20px;
   background-color: #f6f6f9;
